@@ -1,0 +1,18 @@
+{
+  "name": "analog-queries",
+  "version": "1.0.0",
+  "description": "Scripts to query Analog blockchain views",
+  "main": "src/queries/viewQuery.js",
+  "scripts": {
+    "query": "node src/queries/viewQuery.js",
+    "example": "node examples/example-queries.js"
+  },
+  "keywords": ["analog", "blockchain", "queries", "puppeteer"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "dotenv": "^16.0.3"
+  }
+}
